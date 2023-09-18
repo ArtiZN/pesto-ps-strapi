@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pictures_via_links_pictures_via_links",
+  "info": {
+    "displayName": "picturesViaLinks",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

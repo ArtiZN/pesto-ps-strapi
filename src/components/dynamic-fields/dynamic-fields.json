@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_dynamic_fields_dynamic_fields",
+  "info": {
+    "displayName": "dynamic-fields",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "param": {
+      "displayName": "dynamic-field",
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic-field.dynamic-field"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dynamic_field_dynamic_fields",
+  "info": {
+    "displayName": "dynamic-field",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "paramName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "paramValue": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

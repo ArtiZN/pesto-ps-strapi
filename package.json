@@ -1,0 +1,32 @@
+{
+  "name": "prestops-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@ckeditor/ckeditor5-markdown-gfm": "^39.0.2",
+    "@strapi/plugin-i18n": "4.14.0-alpha.0",
+    "@strapi/plugin-users-permissions": "4.14.0-alpha.0",
+    "@strapi/strapi": "4.14.0-alpha.0",
+    "better-sqlite3": "8.5.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "52eeeb5f-aef8-4b80-8188-d8485e0ffa02"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
