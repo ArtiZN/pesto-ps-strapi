@@ -100,7 +100,7 @@
           "localized": true
         }
       },
-      "type": "biginteger",
+      "type": "float",
       "required": true
     },
     "selling_type": {
@@ -171,6 +171,15 @@
       "components": [
         "dynamic-fields.dynamic-fields"
       ],
+      "required": false
+    },
+    "video": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
       "required": false
     }
   }
