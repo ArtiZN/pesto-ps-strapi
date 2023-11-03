@@ -10,7 +10,7 @@
     "paramName": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "paramValue": {
       "type": "string",

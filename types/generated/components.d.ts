@@ -8,7 +8,7 @@ export interface DynamicFieldDynamicField extends Schema.Component {
     description: '';
   };
   attributes: {
-    paramName: Attribute.String & Attribute.Required & Attribute.Unique;
+    paramName: Attribute.String & Attribute.Required;
     paramValue: Attribute.String & Attribute.Required;
   };
 }

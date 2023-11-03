@@ -789,19 +789,6 @@ export interface ApiProductProduct extends Schema.CollectionType {
         };
       }> &
       Attribute.DefaultTo<true>;
-    description: Attribute.RichText &
-      Attribute.Required &
-      Attribute.CustomField<
-        'plugin::ckeditor5.CKEditor',
-        {
-          preset: 'toolbar';
-        }
-      > &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     category: Attribute.Relation<
       'api::product.product',
       'oneToOne',
@@ -829,7 +816,6 @@ export interface ApiProductProduct extends Schema.CollectionType {
       }> &
       Attribute.DefaultTo<'r'>;
     typePack: Attribute.String &
-      Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -873,6 +859,19 @@ export interface ApiProductProduct extends Schema.CollectionType {
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
+        };
+      }>;
+    description: Attribute.RichText &
+      Attribute.CustomField<
+        'plugin::ckeditor.CKEditor',
+        {
+          output: 'HTML';
+          preset: 'standard';
+        }
+      > &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
         };
       }>;
     createdAt: Attribute.DateTime;

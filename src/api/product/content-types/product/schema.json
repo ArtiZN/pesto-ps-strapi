@@ -67,19 +67,6 @@
       "default": true,
       "required": true
     },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "customField",
-      "options": {
-        "preset": "toolbar"
-      },
-      "customField": "plugin::ckeditor5.CKEditor",
-      "required": true
-    },
     "category": {
       "type": "relation",
       "relation": "oneToOne",
@@ -120,7 +107,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "vendor": {
       "pluginOptions": {
@@ -181,6 +168,19 @@
       },
       "type": "string",
       "required": false
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
