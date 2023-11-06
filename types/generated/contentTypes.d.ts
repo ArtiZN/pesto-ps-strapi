@@ -791,7 +791,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
       Attribute.DefaultTo<true>;
     category: Attribute.Relation<
       'api::product.product',
-      'oneToOne',
+      'oneToMany',
       'api::category.category'
     >;
     presence_sure: Attribute.Boolean &

@@ -69,7 +69,7 @@
     },
     "category": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::category.category"
     },
     "presence_sure": {
