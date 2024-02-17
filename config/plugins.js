@@ -1,6 +1,10 @@
-// module.exports = () => ({
-//   ckeditor: {
-//     enabled: true,
-//     resolve: "./src/plugins/strapi-plugin-ckeditor",
-//   },
-// });
+module.exports = ({ env }) => ({
+    //...
+    'import-export-entries': {
+      enabled: true,
+      config: {
+        // See `Config` section.
+      },
+    },
+    //...
+  });
